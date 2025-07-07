@@ -1,0 +1,15 @@
+
+body { font-family: monospace; background:#f7fdfa; color:#0b3d0b; margin:0; }
+header { background:#7ed957; padding:10px; text-align:center; font-weight:bold; }
+#board-list { display:flex; flex-wrap:wrap; gap:10px; padding:10px; background:#ccf5b1; }
+#board-list button { background:#fff; border:1px solid #aaa; border-radius:6px; padding:5px 10px; cursor:pointer; }
+.thread-box, .post-box {
+  background:#fff;
+  margin:10px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:10px;
+  white-space:pre-wrap;
+}
+form { margin:10px; background:#eef; padding:10px; border-radius:10px; }
+textarea { width:100%; font-family:monospace; min-height:60px; }
